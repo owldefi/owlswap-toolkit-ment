@@ -31,7 +31,7 @@ const StyledLink = styled(Link)`
     width: 160px;
     display: none;
     ${({ theme }) => theme.mediaQueries.nav} {
-      display: block;
+      display: flex;
     }
   }
   .right-eye {

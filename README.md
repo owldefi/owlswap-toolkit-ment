@@ -25,3 +25,19 @@ yarn
 ```
 
 Then, refer to the readme of each project.
+
+
+OwlSwap Project Structure
+
+```
+|-- owlswap-frontend
+|-- owlswap-sdk
+|-- owlswap-toolkit
+```
+OwlSwap Instructions
+
+Checkout to owlswap branch
+
+run `yarn install`
+`cd packages/pancake-uikit`
+`yarn build && ./copy.sh`
